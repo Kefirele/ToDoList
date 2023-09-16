@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/ToDoList.Controls;component/TextBlocks.xaml" />
+        <ResourceDictionary Source="/ToDoList.Controls;component/TextBoxes.xaml"/>
+        <ResourceDictionary Source="/ToDoList.Controls;component/Buttons.xaml" />
+        <ResourceDictionary Source="/ToDoList.Controls;component/ListViews.xaml"/>
+        <ResourceDictionary Source="/ToDoList.Controls;component/TabControls.xaml"/>
+        <ResourceDictionary Source="/ToDoList.Views;component/DataTemplates.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>
